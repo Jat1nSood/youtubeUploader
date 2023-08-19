@@ -140,9 +140,9 @@
 const app = require('express')();
 const cors = require('cors');
 const corsOptions = {
-  origin: 'http://localhost:3000', // Adjust with your frontend URL
+  origin: 'http://localhost:3000', 
   methods: ['GET', 'POST'],
-  credentials: true, // Set this if you're using cookies or sessions
+  credentials: true, 
 };
 
 app.use(cors(corsOptions));
